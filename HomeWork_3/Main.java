@@ -40,7 +40,8 @@ public class Main {
     }
 
     public static void makeRecord() throws Exception{
-        System.out.println("Введите фамилию, имя, отчество, дату рождения (в формате dd.mm.yyyy), номер телефона (число без разделителей) и пол(символ латиницей f или m), разделенные пробелом");
+        System.out.println("Введите фамилию, имя, отчество, дату рождения (в формате dd.mm.yyyy), " +
+        "номер телефона (число без разделителей) и пол(символ латиницей f или m), разделенные пробелом");
 
         String text;
         try(BufferedReader bf = new BufferedReader(new InputStreamReader(System.in))) {
